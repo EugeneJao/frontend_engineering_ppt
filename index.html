@@ -1,0 +1,307 @@
+<!doctype html>
+
+<html lang="zh">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>前端工程化分享</title>
+
+    <meta name="description"
+      content="讨论前端工程化的含义、作用、发展历史以及未来展望" />
+    <meta name="author" content="eugene_jao" />
+
+    <link
+      href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
+      rel="stylesheet" />
+  </head>
+
+
+  <body class="impress-not-supported">
+
+    <div class="fallback-message">
+      <p>你的浏览器 <b>不支持</b> impress.js， 所以你可以尝试使用更加简单的方式做内容展示.</p>
+      <p>推荐使用最新版本的 <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> 浏览器。</p>
+    </div>
+
+    <div id="impress">
+
+     
+      <div id="困惑-选型" class="bored step slide" data-x="-1000" data-y="-1500" >
+        <q>你是否被前端工程化的 <b>工具选型</b> 困扰？</q>
+        <q>browserify、grunt、gulp、requirjs、seajs、babel、jslint、eslint、stylelint、htmllint、...</q>
+      </div>
+
+
+      <div id="困惑-概念" class="step slide" data-x="0" data-y="-1500">
+        <q>你是否苦于理解前端工程化的 <strong>相关概念</strong></q>
+        <q>
+          什么是<strong>tree-shaking</strong>？
+          什么是<strong>chunkhash、hash、contenthash</strong>？
+          什么是<strong>commonjs、amd和cmd</strong>？
+          ...
+        </q>
+      </div>
+
+      <div id="困惑-上手" class="step slide" data-x="1000" data-y="-1500">
+        <q>你是否想要以后能够<strong>快速上手</strong> 和 <strong>深度定制</strong>已有的前端项目？</q>
+        <q>
+          如何集成<strong>不同模块</strong>规范的js库
+          为什么有些项目编译成功了在浏览器却<strong>运行不了</strong>？
+          ...
+        </q>
+      </div>
+
+      
+      <div id="主题" class="theme step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">快来“前端</span>
+        <h1>工程化</h1><sup style="float: right;">实践”寻找答案！</sup>
+        <ul>
+          <li>
+            <span class="footnote"><sup>*</sup> 什么叫做前端工程化？</span>
+          </li>
+          <li>
+            <span class="footnote"><sup>*</sup> 鸿蒙时期</span>
+          </li>
+          <li>
+            <span class="footnote"><sup>*</sup> 模块管理时期</span>
+          </li>
+          <li>
+            <span class="footnote"><sup>*</sup> 编译构建时期</span>
+          </li>
+          <li>
+            <span class="footnote"><sup>*</sup> 未来畅想</span>
+          </li>
+        </ul>
+      </div>
+
+      <div id="定义" class="its step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p>网络定义：使用<strong>软件工程</strong>的<strong>技术</strong>和<strong>方法</strong>来进行前端项目的开发、维护和管理前端代码。
+        <h2><strong>太抽象了！</strong></h2>
+        <img src="./src/assets/images/what.jpeg"/>
+      </div>
+
+      <div id="直观感受" class="big step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>所以什么是 <b>工程</b> <span class="thoughts">化？</span></p>
+      </div>
+
+      <div id="灶" class="tiny step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>砌 <b>小灶</b> 需要工程化吗？</p>
+        <img src="./src/assets//images/burner.jpeg" />
+      </div>
+      <div id="摩天大楼" class="tiny step" data-x="3800" data-y="3400" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>建 <b>摩天大楼</b> 需要工程化吗？</p>
+        <img src="./src/assets//images/pafc.jpeg" />
+      </div>
+
+      <div id="关键" class="ing step" data-x="3500" data-y="-850" data-z="0" data-rotate="270" data-scale="6">
+        <p>把 <b class="positioning">复杂</b>问题变简单的一种方法, 然而<b class="rotating">前端开发</b> 到底 <b
+            class="scaling">复杂</b> 在哪里呢？</p>
+      </div>
+
+
+      <div id="前端问题" class="ing step" data-x="3500" data-y="-12000" data-z="0" data-rotate="270" data-scale="6">
+        <img src="./src/assets/images/frontend_tools.jpeg" style="width: 600px;"/>
+      </div>
+
+      <div id="历史" class="imagination step" data-x="6700" data-y="-300" data-scale="6">
+        <p>唯一能让人 <b>深刻</b> 的是 <b class="imagination">历史</b></p>
+      </div>
+
+      <div id="鸿蒙时期" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+        <p>发展阶段1</p>
+        <q><a href="https://baike.baidu.com/item/鸿蒙/85002?fr=aladdin">鸿蒙</a> 时期！</q>
+        <img src="./src/assets//images/slash_burn.jpeg" />
+      </div>
+
+      <div id="鸿蒙时间点" class="one-more-thing step" data-x="6000" data-y="4000" data-scale="2">
+        <p>时间：很久以前-2011.11.19(requirjs v1.0)</p>
+      </div>
+
+      <div id="鸿蒙时期特征-freemaker" class="its-in-3d step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10"
+        data-scale="2">
+        <p><span class="have">前端</span> <span class="you">逻辑</span> <span class="noticed">非常</span> <span
+            class="its">简单</span> <span class="in">只能</span> <b>寄人篱下<sup>*</sup></b>！</p>
+        <p>
+          <span class="footnote">浏览器大战导致的兼容性问题</span>
+          <img src="./src/assets/images/jquery.jpeg"/>
+        </p>
+        <span class="footnote">java freemaker模板代码</span>
+        <img src="./src/assets/images/ftl.png" style="width: 600px;"/>
+      </div>
+
+      <div id="鸿蒙时期特征-jsp" class="its-in-3d step" data-x="6200" data-y="5300" data-z="-100" data-rotate-x="-40" data-rotate-y="10"
+        data-scale="2">
+        <p><span class="have">鸿蒙</span> <span class="you">时期</span></p>
+        <span class="footnote">* java jsp模板代码</span>
+        <img src="./src/assets/images/jsp.png" style="width: 600px;"/>
+      </div>
+
+      <div id="鸿蒙时期特征-velocity" class="its-in-3d step" data-x="6200" data-y="6300" data-z="-100" data-rotate-x="-40" data-rotate-y="10"
+        data-scale="2">
+        <p><span class="have">鸿蒙</span> <span class="you">时期</span></p>
+        <span class="footnote">* java velocity模板代码</span>
+        <img src="./src/assets/images/vm.png" style="width: 600px;"/>
+      </div>
+      <div id="鸿蒙时期特征-php" class="its-in-3d step" data-x="6200" data-y="7300" data-z="-100" data-rotate-x="-40" data-rotate-y="10"
+        data-scale="2">
+        <p><span class="have">鸿蒙</span> <span class="you">时期</span></p>
+        <span class="footnote">* php模板代码</span>
+        <img src="./src/assets/images/php.png" style="width: 600px;"/>
+      </div>
+      <div id="鸿蒙时期特征-ruby_on_rails" class="its-in-3d step" data-x="6200" data-y="8300" data-z="-100" data-rotate-x="-40" data-rotate-y="10"
+        data-scale="2">
+        <p><span class="have">鸿蒙</span> <span class="you">时期</span></p>
+        <span class="footnote">* ruby on rails模板代码</span>
+        <img src="./src/assets/images/rhtml.png" style="width: 600px;"/>
+      </div>
+
+      <div id="模块管理时期" class="step" data-x="6300" data-y="10000" data-rotate="20" data-scale="4">
+        <p>发展阶段2</p>
+        <q>模块管理时期！</q>
+        <img src="./src/assets/images/ajax.jpeg" />
+        <img src="./src/assets/images/modules.png" />
+      </div>
+
+      <div id="模块管理时期时间点" class="one-more-thing step" data-x="8000" data-y="12000" data-scale="2">
+        <p>时间：2011.11.19-2014.01.17(gulp v3.4)</p>
+      </div>
+
+      <div id="模块管理时期特征-requirejs" class="its-in-3d step" data-x="8000" data-y="12500" data-z="-100" data-rotate-x="-40"
+        data-rotate-y="10" data-scale="2">
+        <span class="have">代码量</span> <span class="you">大</span> <span class="noticed">依赖</span> <span
+            class="its">复杂</span> <span class="in">难以</span> <b>维护<sup>*</sup></b>！</p>
+        <span class="footnote">* requirejs模块化代码</span>
+        <img src="./src/assets/images/requirejs.png" style="width: 600px;" />
+      </div>
+      <div id="模块管理时期特征-seajs" class="its-in-3d step" data-x="8000" data-y="13500" data-z="-100" data-rotate-x="-40"
+        data-rotate-y="10" data-scale="2">
+        <p><span class="have">模块管理</span> <span class="you">时期</span></p>
+        <span class="footnote">* seajs模块化代码</span>
+        <img src="./src/assets/images/seajs.png" style="width: 600px;" />
+      </div>
+      <div id="模块管理时期特征-commonjs" class="its-in-3d step" data-x="8000" data-y="14500" data-z="-100" data-rotate-x="-40"
+        data-rotate-y="10" data-scale="2">
+        <p><span class="have">模块管理</span> <span class="you">时期</span></p>
+        <span class="footnote">* commonjs模块化代码</span>
+        <img src="./src/assets/images/commonjs.png" style="width: 600px;" />
+      </div>
+      <div id="编译构建时期" class="step" data-x="6400" data-y="15500" data-rotate="20" data-scale="4">
+        <p>发展阶段3</p>
+        <q>编译构建时期！</q>
+        <p>
+          <img src="./src/assets/images/gulp_grunt.jpeg" style="float:none; width: 200px;" />
+          <img src="./src/assets/images/webpack.jpg" style="float:none; width:600px;" />
+        </p>
+      </div>
+      
+      <div id="编译构建时期时间点" class="one-more-thing step" data-x="9500" data-y="16500" data-scale="2">
+        <p>时间：2014.01.17(gulp v3.4)-现在</p>
+      </div>
+
+      <div id="编译构建时期特征-gulp" class="its-in-3d step" data-x="9500" data-y="17000" data-z="-100" data-rotate-x="-40"
+        data-rotate-y="10" data-scale="2">
+        <span class="have">移动端占</span> <span class="you">主导地位</span> ，<span class="noticed">前端功能</span> <span class="its">日益复杂</span>
+        <span class="in">性能要求</span> <b>大大提高<sup>*</sup></b>！</p>
+        <span class="footnote">* gulp工作流程</span>
+        <img src="./src/assets/images/gulp_work_flow.png" style="width: 800px;" />
+      </div>
+      <div id="gulp特征" class="its-in-3d step" data-x="9500" data-y="18000" data-z="-100" data-rotate-x="-40"
+        data-rotate-y="10" data-scale="2">
+        <p><span class="have">gulp</span> <span class="you">特点</span></p>
+        <span class="footnote">*
+          封装文件流的输入输出，统一内部插件的通信规范，将具体代码的转换处理交由各个插件负责。同时借用了unix的管道思想来实现插件间通信，提高处理效率。</span>
+        <img src="./src/assets/images/gulp_essence.png" style="width: 800px;" />
+      </div>
+
+      <div id="gulp插件" class="its-in-3d step" data-x="9500" data-y="19500" data-z="-100" data-rotate-x="-40"
+        data-rotate-y="10" data-scale="2">
+        <p><span class="have">部分常用</span> <span class="you">gulp插件</span></p>
+        <p>
+          <span class="footnote">* gulp-connect：用于创建静态资源服务器，供调试使用。</span>
+        </p>
+        <p>
+          <span class="footnote">* gulp-html-replace：用于想html中插入指定的资源，如css、js等</span>
+        </p>
+        <p>
+          <span class="footnote">* gulp-uglify：用于代码混淆和压缩</span>
+        </p>
+        <p>
+          <span class="footnote">* gulp-jest：用于单元测试。</span>
+        </p>
+        <p>
+          <span class="footnote">* gulp-browserify：用于将commonjs依赖规范工程转换为浏览器可运行代码。</span>
+        </p>
+        <p>
+          <span class="footnote">* gulp-umd：用于模块导出，如果有指定的全局对象，则绑定在全局对象下。</span>
+          <img src="./src/assets/images/umd.png" style="width: 800px;"/>
+        </p>
+      </div>
+
+      <div id="overview" class="overview step" data-x="3000" data-y="1500" data-z="0" data-scale="10">
+      </div>
+
+    </div>
+
+    <div id="impress-toolbar"></div>
+
+    <div class="hint">
+      <p>Use a spacebar or arrow keys to navigate. <br />
+        Press 'P' to launch speaker console.</p>
+    </div>
+    <script>
+      if ("ontouchstart" in document.documentElement) {
+        document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";
+      }
+    </script>
+    <script src="dist/demo.js"></script>
+
+  </body>
+
+</html>
+
+<!--
+    
+    Now you know more or less everything you need to build your first impress.js presentation, but before
+    you start...
+    
+    Oh, you've already cloned the code from GitHub?
+    
+    You have it open in text editor?
+    
+    Stop right there!
+    
+    That's not how you create awesome presentations. This is only a code. Implementation of the idea that
+    first needs to grow in your mind.
+    
+    So if you want to build great presentation take a pencil and piece of paper. And turn off the computer.
+    
+    Sketch, draw and write. Brainstorm your ideas on a paper. Try to build a mind-map of what you'd like
+    to present. It will get you closer and closer to the layout you'll build later with impress.js.
+    
+    Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
+    it earlier, because you'll only waste your time fighting with positioning of useless points.
+    
+    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about 
+    creating awesome and engaging presentations.
+    
+    Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
+    
+-->
+
+<!--
+    
+    Are you still reading this?
+    
+    For real?
+    
+    I'm impressed! Feel free to let me know that you got that far (I'm @bartaz on Twitter), 'cause I'd like
+    to congratulate you personally :)
+    
+    But you don't have to do it now. Take my advice and take some time off. Make yourself a cup of coffee, tea,
+    or anything you like to drink. And raise a glass for me ;)
+    
+    Cheers!
+    
+-->

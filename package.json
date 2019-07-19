@@ -1,0 +1,24 @@
+{
+  "name": "frontend_engineer_ppt",
+  "version": "1.0.0",
+  "description": "前端工程化介绍ppt",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t node-lessify src/index.js > dist/demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eugene_jao",
+  "license": "MIT",
+  "dependencies": {
+    "highlight.js": "^9.15.8",
+    "impress.js": "^1.0.0",
+    "markdown": "^0.5.0",
+    "mermaid": "^8.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.3.0",
+    "cssify": "^1.0.3",
+    "node-lessify": "^0.1.5",
+    "stringify": "^5.2.0"
+  }
+}
